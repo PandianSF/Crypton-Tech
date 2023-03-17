@@ -14,10 +14,16 @@ if (operation === "addition") {
   );
 }
 if (operation === "subtraction") {
-  console.log(operation + " of two numbers  " + (operator1 - operator2));
+  console.log(
+    operation + " of two numbers  " + operator1,
+    operator2 + " is " + (operator1 - operator2)
+  );
 }
 if (operation === "multiplication") {
-  console.log(operation + " of two numbers " + operator1 * operator2);
+  console.log(
+    operation + " of two numbers " + operator1,
+    operator2 + " is " + operator1 * operator2
+  );
 }
 if (operation === "division") {
   console.log(
